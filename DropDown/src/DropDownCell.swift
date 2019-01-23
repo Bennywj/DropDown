@@ -15,7 +15,7 @@ open class DropDownCell: UITableViewCell {
 	
 	public var selectedBackgroundColor: UIColor?
 
-    public override init(style: UITableViewCellStyle, reuseIdentifier: String?) {
+    public override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
         setupView()
     }
